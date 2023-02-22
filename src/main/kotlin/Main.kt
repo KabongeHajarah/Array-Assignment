@@ -13,7 +13,6 @@ fun MajorCities (){
    var cities= arrayOf("harare","mumbai","dodoma","jakarta")
     for (cities in cities)
         println( cities.capitalize())
-var city= cities
 
 
 
@@ -21,8 +20,9 @@ var city= cities
 }
 fun calculations (){
     var numbers= arrayOf(32, 17,4,213,78,43,90,31,3,73,11,158,62)
-    var adding= numbers.sum()
-println(adding)
+    var sum= numbers.get(1)  + numbers.get(4)
+println(sum)
+
 
     var findings= numbers.indexOf(158)
 println(findings)
